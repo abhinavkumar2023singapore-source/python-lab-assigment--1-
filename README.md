@@ -31,5 +31,3 @@ Status: You are within your daily calorie limit.
 * Shows a simple daily summary
 
 ---
-
-Would you like me to make this README look a little more stylish with emojis and headings (for GitHub upload)?
