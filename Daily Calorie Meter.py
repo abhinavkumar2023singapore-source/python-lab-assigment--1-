@@ -21,17 +21,19 @@ if total_calories > daily_limit:
 else:
     status_message = " You are within your daily calorie limit."
 
-# Task 5: Neatly Formatted Output
+# Task 5: Summary Output
 # -------------------------------
-print("\n\n----------- DAILY SUMMARY REPORT -----------\n")
-print("Meal Name\t\tCalories")
+print("\n----------- DAILY SUMMARY REPORT -----------\n")
+print("Meal Name            Calories")
 print("--------------------------------------------")
 
 for i in range(len(meals)):
-    print(f"{meals[i]}\t\t{calories[i]}")
+    print(f"{meals[i]}              {calories[i]}")
 
 print("--------------------------------------------")
-print(f"Total:\t\t{total_calories}")
-print(f"Average:\t\t{average_calories:}")
-print(f"Status:\t\t {status_message}")
-print("\n--------------------------------------------")
+print(f"Total:               {total_calories}")
+print(f"Average:             {average_calories}")
+print(f"Status:              {status_message}")
+print("--------------------------------------------")
+
+
