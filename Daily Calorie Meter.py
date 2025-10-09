@@ -1,3 +1,9 @@
+# ---------------------------------------------
+# Daily Calorie Tracker
+# Written by Abhinav Kumar
+# A simple program to track meals and calories
+# ---------------------------------------------
+
 # Task 1: Welcome Message
 print("Welcome to Daily Calorie Tracker!")
 print("Track what you eat, count your calories, and see if you’re staying within your daily goal!")
@@ -36,6 +42,7 @@ print(f"Total:               {total_calories}")
 print(f"Average:             {average_calories}")
 print(f"Status:              {status_message}")
 print("--------------------------------------------")
+
 
 
 
