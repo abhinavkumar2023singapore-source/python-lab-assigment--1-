@@ -11,17 +11,9 @@ The program will then show your total and average calories and tell you if you s
 ### Example Output
 
 ```
-Welcome to Daily Calorie Tracker!
-How many meals did you have today? 3
-Meal 1: Breakfast - 250 kcal
-Meal 2: Lunch - 600 kcal
-Meal 3: Dinner - 550 kcal
-Enter your daily calorie limit: 1500
 
-Total Calories: 1400
-Average Calories: 466.67
-Status: You are within your daily calorie limit.
-```
+```<img width="1225" height="638" alt="Screenshot 2025-10-09 184742" src="https://github.com/user-attachments/assets/eaa3ebbe-ba28-4614-9b6a-6b58bdfa243a" />
+
 
 ### Features
 
