@@ -1,12 +1,13 @@
 # Task 1: Welcome Message
 print("Welcome to Daily Calorie Tracker!")
-print("This tool helps you record your meals, calculate total calories compare with your daily limit, and optionally save your session")
+print("Track what you eat, count your calories, and see if you’re staying within your daily goal!")
+
 # Task 2: Input & Data Collection
 meals = []
 calories = []
 num_meals = int(input("How many meals did you have today? "))
 for i in range(num_meals):
-    print(f"\nEnter details for meal {i + 1}:")
+    print(f"\n Enter details for meal that you had taken {i + 1}:")
     meal_name = str(input("Meal name: "))
     calorie_amount = float(input("Calories (in kcal): "))
     meals.append(meal_name)
@@ -17,9 +18,9 @@ average_calories = total_calories / len(calories)
 daily_limit = float(input("\nEnter your daily calorie limit: "))
  # Task 4: Exceed Limit Warning System
 if total_calories > daily_limit:
-    status_message = " You have exceeded your daily calorie limit!"
+    status_message = " You have exceeded your daily calorie limit Today : "
 else:
-    status_message = " You are within your daily calorie limit."
+    status_message = " You are within your daily calorie limit today  :"
 
 # Task 5: Summary Output
 # -------------------------------
@@ -35,5 +36,6 @@ print(f"Total:               {total_calories}")
 print(f"Average:             {average_calories}")
 print(f"Status:              {status_message}")
 print("--------------------------------------------")
+
 
 
