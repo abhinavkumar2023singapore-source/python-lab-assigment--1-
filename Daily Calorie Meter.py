@@ -5,7 +5,7 @@ print("Track what you eat, count your calories, and see if you’re staying with
 # Task 2: Input & Data Collection
 meals = []
 calories = []
-num_meals = int(input("How many meals did you have today? "))
+num_meals = int(input("How many times you had taken your meals today ? "))
 for i in range(num_meals):
     print(f"\n Enter details for meal that you had taken {i + 1}:")
     meal_name = str(input("Meal name: "))
@@ -36,6 +36,7 @@ print(f"Total:               {total_calories}")
 print(f"Average:             {average_calories}")
 print(f"Status:              {status_message}")
 print("--------------------------------------------")
+
 
 
 
