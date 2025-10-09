@@ -25,3 +25,6 @@ The program will then show your total and average calories and tell you if you s
 # CODE
 
 <img width="845" height="690" alt="Screenshot 2025-10-09 185440" src="https://github.com/user-attachments/assets/5efe3329-bac0-4e2d-bf6d-cd120efc8133" />
+
+
+This is created by abhinav kumar
